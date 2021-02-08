@@ -5,3 +5,8 @@
     Public Property City() As String
 End Class
 
+Public Class Errors
+    Property VField As String
+    Property VError As String
+End Class
+

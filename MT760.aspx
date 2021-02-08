@@ -32,7 +32,9 @@
                 <asp:ListItem Value="In Arrears" Text="In Arrears"></asp:ListItem>
             </asp:RadioButtonList>
         </div>
-        <input type="submit" class="btn-danger" onclick="btnSubmit_click" runat="server" id="btnSubmit" />
+        <input type="submit" class="btn-danger" onclick="btnSubmit_click" runat="server" id="btnSubmit" value="POST" />
+        <input type="submit" class="btn-danger" onclick="btnSubmitGet_click" runat="server" id="btnSubmitGet" value="GET" />
+
     </form>
 
     <script type="text/javascript">

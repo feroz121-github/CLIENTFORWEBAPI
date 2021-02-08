@@ -66,4 +66,13 @@ Partial Public Class MT760
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnSubmit As Global.System.Web.UI.HtmlControls.HtmlInputSubmit
+
+    '''<summary>
+    '''btnSubmitGet control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnSubmitGet As Global.System.Web.UI.HtmlControls.HtmlInputSubmit
 End Class
