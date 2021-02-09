@@ -152,6 +152,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="MT760.aspx" />
+    <Content Include="MT765.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -180,6 +181,8 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="UC\UC1.ascx" />
+    <Content Include="UC\UC2.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
@@ -212,11 +215,19 @@
     </Compile>
     <Compile Include="Models\CityClass.vb" />
     <Compile Include="Models\MSG_MT760.vb" />
+    <Compile Include="Models\TagClass.vb" />
     <Compile Include="MT760.aspx.designer.vb">
       <DependentUpon>MT760.aspx</DependentUpon>
     </Compile>
     <Compile Include="MT760.aspx.vb">
       <DependentUpon>MT760.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MT765.aspx.designer.vb">
+      <DependentUpon>MT765.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MT765.aspx.vb">
+      <DependentUpon>MT765.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -243,6 +254,20 @@
     </Compile>
     <Compile Include="Site.Master.vb">
       <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UC\UC1.ascx.designer.vb">
+      <DependentUpon>UC1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UC1.ascx.vb">
+      <DependentUpon>UC1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UC\UC2.ascx.designer.vb">
+      <DependentUpon>UC2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\UC2.ascx.vb">
+      <DependentUpon>UC2.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.vb">
